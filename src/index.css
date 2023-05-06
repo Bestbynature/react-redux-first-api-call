@@ -1,0 +1,28 @@
+body {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.users {
+  background-color: blanchedalmond;
+  padding: 2rem;
+  margin: 2rem auto;
+  width: 70%;
+}
+
+.users li {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+  border: 2px solid black;
+  align-items: center;
+}
+
+.users hr {
+  height: 100%;
+}
